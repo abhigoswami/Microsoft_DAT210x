@@ -39,7 +39,7 @@ ax1 = fig.add_subplot(111, projection = '3d')
 ax1.set_xlabel('width')
 ax1.set_ylabel('groove')
 ax1.set_zlabel('asymmetry')
-ax1.scatter(df['area'], df['perimeter'], df['asymmetry'], c='green', marker='.')
+ax1.scatter(df['width'], df['groove'], df['asymmetry'], c='green', marker='.')
 
 
 plt.show()
